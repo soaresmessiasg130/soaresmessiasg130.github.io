@@ -85,7 +85,31 @@
         background-color: rgba(211, 32, 32, .4);
         background: linear-gradient(rgba(211, 32, 32, .4),rgba(211, 32, 32, .8));
         }
-
+        
+        #links-redes {
+           position: absolute; 
+           text-align: right;
+           /* background-color: red; */
+           top: 1em;
+           right: 1em;
+           max-width:100%;
+           min-width:30%;
+        }
+        #redes li{
+            display: inline-block;
+            /* background-color: blue; */
+            text-align: center;
+            min-width: 10%;
+            max-width: 20%;
+        }
+        #redes li:hover {
+            margin-left: 10px;
+            margin-right: 10px;
+            transition: 1s;
+        }
+        #redes img {
+            width: 100%;
+        }
     </style>
 </head>
 
@@ -94,7 +118,14 @@
     <header>
         <div id="fundo-header">
             <img src="fundo.jpg" alt=""></img>
-        </div>        
+        </div>
+        <div id="links-redes">
+            <ul id="redes" type="none">
+                <li><a href="#"><img src="fb.png" alt=""></a></li>
+                <li><a href="https://linkedin.com/in/messias-soares-paiva-a04602167"><img src="in.png" alt=""></a></li>
+                <li><a href="https://github.com/soaresmessiasg130"><img src="git.png" alt=""></a></li>
+            </ul>
+        </div>
     </header>
 
     <main style="width:fit-content;" class="container">
