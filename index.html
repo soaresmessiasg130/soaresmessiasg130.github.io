@@ -7,11 +7,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Messias Soares</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+    <link rel="stylesheet" type="text/css" href="_css/style-index.css">
 </head>
 
 <body>
-
+<!-- 
     <header>
 
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -23,7 +23,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Objetivos <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="#">Objetivos</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Formação</a>
@@ -40,19 +40,208 @@
                 </ul>
             </div>
         </nav>
+    </header> -->
+
+    <header>
+        <div id="fundo-header">
+            <img src="./_imagens/fundo.jpg" alt="">
+        </div>
+        
     </header>
+    <div>
 
-
-    <div class="container" style="height: 20em">
-        <h1>Messias Soares Paiva Pinho</h1>
-
-        <h2>Sou uma pessoa bastante inovadora!</h2>
-
-        <h6 class="">Tenho muitos planos e metas profissionais. Estou sempre em busca de melhoria e sinto que sou capaz de realizar tudo que meu conhecimento permite.</h6>
-        <h6>E aquilo que não sei executar, AINDA, busco aprender, para poder dizer: CONSEGUI! </h6>
     </div>
+    <!-- <h2>Sou uma pessoa bastante inovadora!</h2>
 
-    <footer>
+    <h6 class="">Tenho muitos planos e metas profissionais. Estou sempre em busca de melhoria e sinto que sou capaz de realizar tudo que meu conhecimento permite.</h6>
+    <h6>E aquilo que não sei executar, AINDA, busco aprender, para poder dizer: CONSEGUI! </h6> -->
+
+    <main style="width:fit-content;" class="container">
+
+
+    <div class="container" id="main-container">
+
+        <div class="row">
+
+            <div id="resume-of-me" style="height: fit-content;" class="container col-sm-4">
+                <div id="office">
+                    <h5>Messias Soares Paiva Pinho</h5>
+                    <h6>22 anos, Solteiro</h6>
+                    <br>
+                    <h5>Desenvolvedor FullStack</h5>
+                    <ul type="square">
+                        <li>Páginas Completas: HTML5, CSS3 and JavaScript</li>
+                        <li>Responsividade e Design é meu forte</li>
+                        <li>JavaScript: ES6, Node.js, Babel, etc</li>
+                        <li>Java: Spring Framework, JSF</li>
+                    </ul>
+                    <h5>Soluções com Frameworks</h5>
+                    <ul type="square">
+                        <li>Django, Laravel, Angular, etc</li>
+                    </ul>
+                    <h5>Principais Projetos</h5>
+                    <ul type="square">
+                        <li>Feitos com o Universo e Ferramentas do Spring Framework</li>
+                        <li>Aplicações Desktop com Java Swing</li>
+                        <li>Aplicações Web Completas com Django</li>
+                    </ul>
+                </div>
+            </div>
+        
+            
+
+            <div id="dash-cv" class="container col-sm-8 accordion">
+                
+                <h2>Sou muito determinado e diferenciado</h2>
+
+                <div class="card">
+                    <div class="head-of-card" id="cardOne">
+                        <h1 class="mb-0">
+                            <button class="btn btn-link btn-of-card" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Objetivos Profissionais
+                            </button>
+                        </h1>
+                    </div>
+                    <div id="collapseOne" class="collapse" aria-labelledby="cardOne" data-parent="#dash-cv">
+                        <div class="card-body">
+                            <h5>Ser reconhecido pelo meu trabalho!</h5>
+                            <p>Tenho muita coragem em trabalhar em uma grande empresa de soluções em Tecnologia da Informação</p>
+                            <p>Passo horas e horas estudando para ter melhor raciocínio em resolver problemas. Reconheço minhas capacidades e sei que ao ter uma oportunidade mostrarei meu valor</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="head-of-card" id="cardTwo">
+                        <h1 class="mb-0">
+                            <button class="btn btn-link btn-of-card" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                            Formação Acadêmica
+                            </button>
+                        </h1>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="cardTwo" data-parent="#dash-cv">
+                        <div class="card-body">
+                            Projeto Alinha Meu Perfil
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="head-of-card" id="cardThree">
+                        <h1 class="mb-0">
+                            <button class="btn btn-link btn-of-card" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                            Carreira Profissional
+                            </button>
+                        </h1>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="cardThree" data-parent="#dash-cv">
+                        <div class="card-body">
+                            Projeto Alinha Meu Perfil
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="head-of-card" id="cardFour">
+                        <h1 class="mb-0">
+                            <button class="btn btn-link btn-of-card" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                            Experiências e Competências
+                            </button>
+                        </h1>
+                    </div>
+                    <div id="collapseFour" class="collapse" aria-labelledby="cardFour" data-parent="#dash-cv">
+                        <div class="card-body">
+                            Projeto Alinha Meu Perfil
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="head-of-card" id="cardFive">
+                        <h1 class="mb-0">
+                            <button class="btn btn-link btn-of-card" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+                            Visão
+                            </button>
+                        </h1>
+                    </div>
+                    <div id="collapseFive" class="collapse" aria-labelledby="cardFive" data-parent="#dash-cv">
+                        <div class="card-body">
+                            Projeto Alinha Meu Perfil
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="head-of-card" id="cardSix">
+                        <h1 class="mb-0">
+                            <button class="btn btn-link btn-of-card" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
+                            Projetos e Realizações
+                            </button>
+                        </h1>
+                    </div>
+                    <div id="collapseSix" class="collapse" aria-labelledby="cardSix" data-parent="#dash-cv">
+                        <div class="card-body">
+                            Projeto Alinha Meu Perfil
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            
+        </div>
+
+    </div>
+</main>
+<!-- 
+
+    <div class="accordion" id="accordionExample">
+        <div class="card">
+            <div class="card-header" id="headingOn">
+                <h2 class="mb-0">
+                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Collapsible Group Item #1
+                    </button>
+                </h2>
+            </div>
+        
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+            <div class="card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+            </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="headingTwo">
+            <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Collapsible Group Item #2
+                </button>
+            </h2>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+            <div class="card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+            </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="headingThree">
+            <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Collapsible Group Item #3
+                </button>
+            </h2>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+            <div class="card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+            </div>
+            </div>
+        </div>
+        </div> -->
+
+    <!-- <footer>
         <div class="card">
             <h5 class="card-header">Minhas Páginas e Contatos</h5>
             <div class="card-body">
@@ -61,7 +250,7 @@
                 <a href="#" class="btn btn-primary">Envie-me um Email</a>
             </div>
         </div>
-    </footer>
+    </footer> -->
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
