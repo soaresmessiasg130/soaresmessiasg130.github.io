@@ -7,57 +7,97 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Messias Soares</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="./_css/style-index.css">
+    <style>
+
+        body{
+        background-color: #444;
+        color: #fafffa;
+        }
+
+        div#fundo-header img {
+        width: 100%;
+        max-height: 17em;
+        filter: opacity();
+        }
+        div#fundo-header h1 {
+        position: absolute;
+        float: left;
+        }
+
+        main {
+        position: relative;
+        min-width: 90%;
+        border-top-left-radius: 1em;
+        border-top-right-radius: 1em;
+        top: -0.5rem;
+        padding: 0;
+        }
+        #resume-of-me {
+        border-left:1px #fafffa solid;
+        }
+        div#dash-cv div {
+        margin: 5px;
+        border-top-right-radius: 2em;
+        }
+        div.card {
+        min-height: 100px;
+        border-radius: 0;
+        background-color: rgba(0,0,0, 0);
+        border: 2px #555 solid;
+        }
+        .head-of-card {
+        text-align: right;
+        border-top-left-radius: 0;
+        transition: 1s;
+        } 
+        .head-of-card:hover {
+        text-align: right;  
+        border-top-left-radius: 0%;
+        border-bottom-left-radius: 100%;
+        border-top-right-radius: 100%;
+        transition: 1s;
+        } 
+
+        .btn-of-card, .btn-of-card:hover{
+        font-size: 20px;
+        text-decoration:bold;
+        color: #fafffa;
+        }
+
+        #cardOne {
+        background: linear-gradient(rgba(56, 30, 150, 0.363),rgba(74, 141, 197, 0.8));
+        }
+        #cardTwo {
+        background: linear-gradient(rgba(224, 224, 12, .4), rgba(224, 224, 12, .8));
+        }
+        #cardThree {
+        background: linear-gradient(rgba(24, 160, 24, .4),rgba(24, 160, 24, .8));
+        }
+        #cardFour {
+        background-color: rgba(40, 40, 204, .4);
+        background: linear-gradient(rgba(40, 40, 204, .4),rgba(40, 40, 204, .8));
+        }
+        #cardFive {
+        background-color: rgba(172, 13, 172, .4);
+        background: linear-gradient(rgba(172, 13, 172, .4),rgba(172, 13, 172, .8));
+        }
+        #cardSix {
+        background-color: rgba(211, 32, 32, .4);
+        background: linear-gradient(rgba(211, 32, 32, .4),rgba(211, 32, 32, .8));
+        }
+
+    </style>
 </head>
 
 <body>
-<!-- 
-    <header>
-
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="index.html">Messias Soares</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Objetivos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Formação</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Carreira</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Experiência</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Visão</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </header> -->
 
     <header>
         <div id="fundo-header">
             <img src="./_imagens/fundo.jpg" alt="">
-        </div>
-        
+        </div>        
     </header>
-    <div>
-
-    </div>
-    <!-- <h2>Sou uma pessoa bastante inovadora!</h2>
-
-    <h6 class="">Tenho muitos planos e metas profissionais. Estou sempre em busca de melhoria e sinto que sou capaz de realizar tudo que meu conhecimento permite.</h6>
-    <h6>E aquilo que não sei executar, AINDA, busco aprender, para poder dizer: CONSEGUI! </h6> -->
 
     <main style="width:fit-content;" class="container">
-
 
     <div class="container" id="main-container">
 
@@ -109,7 +149,7 @@
                             <h5>Principal Objetivo</h5>
                             <ul type="square">
                                 <li>Engajar-me no meu sonho de ser Docente</li>
-                                <li>Me especialar em Inteligencia Artificial</li>
+                                <li>Me especializar em Inteligência Artificial</li>
                                 <li>Ingressar no mercado de Big Data</li>
                             </ul>
                             <p>Passo horas e horas estudando para ter melhor raciocínio em resolver problemas. Reconheço minhas capacidades e sei que ao ter uma oportunidade mostrarei meu valor</p>
