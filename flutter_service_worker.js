@@ -6,15 +6,17 @@ const RESOURCES = {
   "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "version.json": "9a4dddba415c9ee5265cd5f5d9963a6a",
 "assets/AssetManifest.json": "2efbb41d7877d10aac9d091f58ccd7b9",
+"assets/GoogleSansRegular.ttf": "b5c77a6aed75cdad9489effd0d5ea411",
+"assets/blackholesemfundo.png": "029f16b4d1389f26d5fcfadf71e1abb7",
 "assets/NOTICES": "77892f9c9bba1da71f8b01c6e1575191",
 "assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac",
-"assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
+"assets/FontManifest.json": "f63fab4ce59830ad3f0fa58389173c12",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "b14fcf3ee94e3ace300b192e9e7c8c5d",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
-"index.html": "946c4683d0bc95e905a07c96ab590c5c",
-"/": "946c4683d0bc95e905a07c96ab590c5c",
-"main.dart.js": "5883f1f550823518eb88bac28aab2372",
+"index.html": "06337abc74d265ba3a8a8d01640eed37",
+"/": "06337abc74d265ba3a8a8d01640eed37",
+"main.dart.js": "9040666c4bed19e508c958ee9bf359c3",
 "manifest.json": "16903bfeca52a82e56468f3d1cf29796"
 };
 
