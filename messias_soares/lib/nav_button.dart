@@ -10,7 +10,7 @@ class NavButton extends StatelessWidget {
     @required 
     this.text, 
     this.onPressed,
-    this.color = Colors.purple
+    this.color = Colors.deepPurpleAccent
   }) : super (
     key: key
   );
